@@ -29,15 +29,15 @@ if (selectMovie !== null & peopleElement !== null) {//verifica que las dos varia
         movieCharacters = ghibli.films[2].people;
         numberCharacters = ghibli.films[2].people.length;
         break;
-      case "3":
-        movieTitle = (ghibli.films[3].title);
-        movieCharacters = ghibli.films[3].people;
-        numberCharacters = ghibli.films[3].people.length;
+      case "7":
+        movieTitle = (ghibli.films[7].title);
+        movieCharacters = ghibli.films[7].people;
+        numberCharacters = ghibli.films[7].people.length;
         break;
-      case "4":
-        movieTitle = (ghibli.films[4].title);
-        movieCharacters = ghibli.films[4].people;
-        numberCharacters = ghibli.films[4].people.length;
+      case "6":
+        movieTitle = (ghibli.films[6].title);
+        movieCharacters = ghibli.films[6].people;
+        numberCharacters = ghibli.films[6].people.length;
         break;
       case "5":
         movieTitle = (ghibli.films[5].title);
