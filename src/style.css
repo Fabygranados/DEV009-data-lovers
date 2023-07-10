@@ -21,7 +21,7 @@
 /*Se edita el body de la pag curiosidades por el nombre de su clase*/
 #pagCuriosidades{
   font-family: "Ysabeau SC";
-  background: url(./multimedia/Fondos/fondo7.jpg) no-repeat fixed;
+  background: url(./multimedia/Fondos/fondo6.jpg) no-repeat fixed;
   background-size: cover;
   z-index: -1;
 
@@ -29,8 +29,9 @@
 /*Se editan los p con las curiosidades por el nombre de su clase*/
 .detalles{
   font-size: 40px;
-  color: rgb(212, 212, 201);
+  color: rgb(47, 45, 153);
   display: grid;
+  background: rgb(164, 164, 241);
 }
 
 /*Se edita la imagen por el nombre de su clase*/
@@ -38,6 +39,7 @@
   width: 500px;
   height: 500px;
   margin: 0 auto;
+  background: rgba(80, 80, 204, 0.349);
 }
 
 /*Se edita la imagen por el nombre de su clase*/
@@ -45,6 +47,7 @@
   width: 500px;
   height: 500px;
   margin: 0 auto;
+  background: rgba(44, 168, 61, 0.349);
 }
 
 /*Se edita la imagen por el nombre de su clase*/
@@ -52,6 +55,7 @@
   width: 500px;
   height: 500px;
   margin: 0 auto;
+  background: rgba(29, 145, 173, 0.349);
 }
 
 /*Se edita la imagen por el nombre de su clase*/
@@ -59,6 +63,7 @@
   width: 500px;
   height: 500px;
   margin: 0 auto;
+  background: rgba(97, 104, 33, 0.349);
 }
 
 /*Se edita la imagen por el nombre de su clase*/
@@ -66,6 +71,7 @@
   width: 500px;
   height: 500px;
   margin: 0 auto;
+  background: rgba(187, 30, 90, 0.349);
 }
 
 /*Se edita la imagen por el nombre de su clase*/
@@ -73,6 +79,7 @@
   width: 600px;
   height: 500px;
   margin: 0 auto;
+  background: rgba(9, 99, 32, 0.349);
 }
 /***************************          Header           ********************************/
 
@@ -84,7 +91,7 @@
   display: grid;
   place-items: center;
   margin: 3.3rem;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: bolder;
   text-shadow: 0.13rem 0.13rem 0.3rem black;
   animation: color 9s infinite;
@@ -261,6 +268,23 @@ img {
   flex: 1;
 }
 
+/*Se editan los botones de curiosidades y volver a films por el nombre de su id*/
+#curiosidades, #volverFilms {
+  color: #110d03;
+  background: ghostwhite;
+  border-radius: 9rem 5rem 3rem 3rem;
+  text-align: center;
+  font-size: 1.4rem;
+  border: none;
+  background-image: url(./multimedia/nubes.gif);
+  background-size: 90%;
+  font-weight: bold;
+  font-family: Ysabeau SC;
+  width: 10rem;
+  height: 4rem;
+  margin-bottom: 30px;
+}
+
 /*Se edita el pie de pagina de las cards por el nombre de su etiqueta*/
 footer {
   border-top: 0.1rem solid #5b8eb8;
@@ -383,6 +407,78 @@ footer {
 }
 
 
+/* Diseño de movil */
+@media screen and (min-width: 200px) and (max-width: 320px) {
+
+  
+  /*Se edita el nav por el nombre de su clase*/
+    .navegacion {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(35px, auto);
+    grid-gap: 1rem;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    }
+  
+   /*Se edita el boton volver a pag principal por el nombre de su id*/
+    .tituloPrincipal {
+      font-family: Dancing Script;
+      min-height: .3vh;
+      display: grid;
+      place-items: center;
+      margin: 3.3rem;
+      font-size: 3rem;
+      font-weight: bolder;
+      text-shadow: 0.13rem 0.13rem 0.3rem black;
+      animation: color 9s infinite;
+      margin-top: 3vh;
+      text-align: center;
+    }
+  
+    /*Se edita el selector de animaciones por el nombre de su clase*/
+    .selector {
+      font-size: 1.2rem;
+      color: rgb(17, 2, 2);
+      font-weight: bold;
+      border-radius: 0.4rem 3rem 1rem 6rem;
+      width: 8rem;
+      height: 2rem;
+      text-align: center;
+      border: none;
+      background-image: url(./multimedia/nubes.gif);
+      background-size: 90%;
+      font-family: Ysabeau SC;
+    }
+  
+    /*Se edita el boton volver a pag principal por el nombre de su id*/
+    #principal {
+      color: #110d03;
+      background: ghostwhite;
+      border-radius: 9rem 5rem 3rem 3rem;
+      text-align: center;
+      font-size: 1.2rem;
+      border: none;
+      background-image: url(./multimedia/nubes.gif);
+      background-size: 90%;
+      font-weight: bold;
+      font-family: Ysabeau SC;
+      width: 9rem;
+      height: 3rem;
+      margin-bottom: 20px;
+  
+    }
+  
+    /*Se edita la seccion contenedora de todas las cards por el nombre de su clase*/
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(138px, 1fr));
+      grid-auto-rows: minmax(200px, auto);
+      grid-gap: 1rem;
+    }
+  }
 
 /* Diseño de movil */
 @media screen and (min-width: 321px) and (max-width: 480px) {
@@ -404,7 +500,7 @@ footer {
     display: grid;
     place-items: center;
     margin: 3.3rem;
-    font-size: 1.9rem;
+    font-size: 3rem;
     font-weight: bolder;
     text-shadow: 0.13rem 0.13rem 0.3rem black;
     animation: color 9s infinite;
