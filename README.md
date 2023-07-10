@@ -254,6 +254,7 @@ Se incluyen pruebas con el uso de jest test.
 
 ## 7. Visita nuestro sitio web
 
+ https://fabygranados.github.io/DEV009-data-lovers/src/
 
 ## 8. Agradecimientos
 Agradecimiento a todo el equipo de laboratoria, por ser una guía en este proyecto y siempre tener apertura para cualquier bloqueo que se presentara, por las guías proporcionadas y los diferentes espacios de recreación para poder equilibrar el trabajo con la distracción.
