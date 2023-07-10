@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+html {/*estilo del fondo*/
+  background: url(https://cdn.wallpapersafari.com/78/96/2WKct1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  background-attachment: fixed;
+}
+
+h1{ /*titulo de la pagina*/
+  color:rgba(46, 82, 132, 0.955);
+  padding: 0rem;
+  font-family: 'Dancing script', cursive;
+  font-size: 3.5rem;
+  font-weight: 100;
+  text-align: center;
+  text-shadow: .1rem .1rem .2rem rgb(77, 75, 75);
+}
+.byMovie {/*subtitulo by Movies*/
+  margin: -2rem 1rem 1rem 1rem;
+ }
+
+.movies-list {/*contenedor de botones*/
+   font-family:'Ysabeau SC', sans-serif ;
+   font-weight: bold;
+   text-align: center;
+ }
+ 
+button {/*estilo de botones*/
+  margin: .2rem;
+  display: inline-grid;
+  background-image: url(https://64.media.tumblr.com/dbba40f6fe111de35363bf7d16de69df/4629bd3bfc1ff56c-79/s540x810/ebf9e5abe8d4322dbfd82005fdeff9b1951e9f1b.jpg);
+  background-size: cover;
+  box-shadow: .2em .2em .3em rgba(0, 0, 0, 0.462);
+  border: none;
+  color: #2f2f2e;
+  text-shadow: .1em .2em .3em  #2e3130;
+  font-family: 'Ysabeau SC', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: .4rem;
+  height: 50px;
+  width: 150px;
+  border-radius: 3px;
+}
+
+button:active{/*estilo al presionar el boton*/
+  transform: translate(0,0.3rem);
+  box-shadow: 0.5rem .5rem 1rem #8a315e;
+}
+
+
+/************Desplegable*****/
+/**nombre de la pelicula**/
+h2{
+  font-family:'Dancing script', cursive; 
+  text-align: center;
+  color: rgb(37, 37, 37);
+  font-weight: 100;
+  text-shadow: .1rem .1rem .1rem #3f3f3fa9;
+  background-color: rgba(255, 228, 196, 0.179);
+  backdrop-filter: blur(4.5px);
+ padding: .5rem;
+}
+.contenedor{ /*contenedor de tarjetas de personajes*/
+  font-family: 'Ysabeau SC', sans-serif;
+  backdrop-filter: blur(4px);
+  background: #dcdcdb6e;
+  display: inline-grid;
+  height: 350px;
+  width: 300px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: .25rem;
+  font-weight: bold;
+}
+.contenedor:hover{/*al pasar el cursor cambiara el color de la tarjeta*/
+background-color: rgba(58, 116, 196, 0.647);
+backdrop-filter: blur(4.5px);
+transition-delay: 0.18s;
+}
+
+ul{
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.name-image{ 
+  margin: 1em 1em 4em 1em;
+  list-style: none;
+  text-align: center;
+}
+ img{
+  margin: -2em 2em -1em 1em;
+  max-height: 200px;
+  padding: 1rem;
+ }
+
+li {
+  list-style: none;
+  border: #2e3130;
+  text-align: center;
+  font-size: 1.2rem;
+}

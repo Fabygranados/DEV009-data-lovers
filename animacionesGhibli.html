@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Indica el tamaño de la pantalla-->
+  <title>Data Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="fondoPaginaAnimaciones"><!--Se agrega un id al body para facilitar la edicion en css-->
+  <script src="main.js" type="module"></script>
+
+  <header class="temaPeli"> <!--Se agrega una clase al header-->
+    <h1 class="tituloPrincipal"> Films Study Ghibli</h1>
+  </header>
+  <nav class="navegacion">
+    <select id="ordenaPor" class="selector"><!--Se agrega una clase al select para faciltar la edicion en css y un id para js-->
+      <option value="0">Sort By</option><!--Se agrega un valor a cada opcion para su uso en js-->
+      <option value="1">A-Z</option>
+      <option value="2">Z-A</option>
+      <option value="3">Year Recent First</option>
+      <option value="4">Year Old First</option>
+      <option value="5">Score Hightest First</option>
+      <option value="6">Score Lowest First</option>
+
+    </select>
+    <select id="Producers" class="selector"><!--Se agrega una clase al select para faciltar la edicion en css y un id para js-->
+      <option value="Producers">Producers</option> <!--Se agrega un valor a cada opcion para su uso en js-->
+      <option value="Isao Takahata">Isao Takahata</option>
+      <option value="Hayao Miyazaki">Hayao Miyazaki</option>
+      <option value="Toru Hara">Toru Hara</option>
+      <option value="Toshio Suzuki">Toshio Suzuki</option>
+      <option value="Yoshiaki Nishimura">Yoshiaki Nishimura</option>
+    </select>
+
+    <select id="Directors" class="selector"><!--Se agrega una clase al select para faciltar la edicion en css y un id para js-->
+      <option value="Directors">Directors</option><!--Se agrega un valor a cada opcion para su uso en js-->
+      <option value="Hayao Miyazaki">Hayao Miyazaki</option>
+      <option value="Isao Takahata">Isao Takahata</option>
+      <option value="Yoshifumi Kondō">Yoshifumi Kondō</option>
+      <option value="Hiroyuki Morita">Hiroyuki Morita</option>
+      <option value="Gorō Miyazaki">Gorō Miyazaki</option>
+      <option value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
+    </select>
+    <button id="principal">Back to Main Page</button><!--Se agrega un boton para volver a pag principal -->
+    <button id="curiosidades">Curiosities Study Ghibli</button><!--Se agrega un boton para ir a curiosidades-->
+  </nav>
+  <main style="padding: 1px;;"><!--Se agreso el estilo en linea para evitar ponerlo por cada @media -->
+    <section class="cards"> </section><!--Se agrega una clase a seccion contenedora de todas las cards-->
+  </main>
+  <footer><!--Se agrega pie de pagina-->
+    <p>Creada por: Nancy Nallely Martinez Dominguez y Fabiola Granados Zavala</p>
+  </footer>
+</body>
+
+</html>
