@@ -256,4 +256,8 @@ Se incluyen pruebas con el uso de jest test.
 
 
 ## 8. Agradecimientos
+Agradecimiento a todo el equipo de laboratoria, por ser una guía en este proyecto y siempre tener apertura para cualquier bloqueo que se presentara, por las guías proporcionadas y los diferentes espacios de recreación para poder equilibrar el trabajo con la distracción.
 
+Gracias a mi compañera de dupla por que logramos formar un buen equipo de trabajo, y una organización efectiva para poder generar los resultados esperados.
+
+Gracias a las compañeras de cada grupo de sprint review, por compartir sus avances y aportarnos tips que fueron siempre muy productivos para nosotras.
