@@ -87,8 +87,8 @@ function mostrarPeliculas(peliculas) {
     card += '<footer>';//Sigue el pie de página de la tarjeta con la etiqueta "footer". Dentro del pie de página, hay un contenedor de metadatos de publicación con la clase "post-meta". Dentro de este contenedor, se muestran varios elementos "span" que contienen información de la película, como el puntaje ("rt_score"), el año de lanzamiento ("release_date"), el productor ("producer") y el director ("director").
     card += '<div class="post-meta">';
     card += '<span>Score: ' + pelicula.rt_score + '</span><br>';
-    card += '<span>Año: ' + pelicula.release_date + '</span><br>';
-    card += '<span>Productor: ' + pelicula.producer + '</span><br>';
+    card += '<span>Year: ' + pelicula.release_date + '</span><br>';
+    card += '<span>Producer: ' + pelicula.producer + '</span><br>';
     card += '<span>Director: ' + pelicula.director + '</span><br>';
     card += '</div>';//•	Al finalizar el bucle, la variable cards contendrá todo el código HTML de las tarjetas de películas.
     card += '</footer>';
