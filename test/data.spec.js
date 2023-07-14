@@ -3,8 +3,6 @@
  */
 // importamos el objeto 'data', que contiene las funciones
 import data from '../src/data.js';
-
-
 describe('data', () => {
   describe('data.paginaPrincipal', () => {
     it('deberia regresar a la pagina principal', () => {
@@ -154,7 +152,7 @@ describe('data', () => {
 
 describe('data', () => {
   describe('data.OrdenaPeliculasProductor', () => {
-    it('debería retornar el arreglo completo de películas', () => {
+    it('debería retornar todas las peliculas del productor especificado', () => {
       const arrayPeliculas = [
         { producer: "Hayao Miyazaki", title: "My Neighbor Totoro" },
         { producer: "Hayao Miyazaki", title: "Kiki's Delivery Service" },
@@ -170,21 +168,21 @@ describe('data', () => {
       expect(resultado).toEqual(expected);
     });
 
-    it('debería retornar un arreglo filtrado por el nombre del productor', () => {
+    it('debería retornar las peliculas en su orden original', () => {
       const arrayPeliculas = [
         { producer: "Hayao Miyazaki", title: "My Neighbor Totoro" },
         { producer: "Hayao Miyazaki", title: "Kiki's Delivery Service" },
       ];
 
-      const resultado = data.OrdenaPeliculasProductor(arrayPeliculas, "Hayao Miyazaki");
-      expect(resultado).toEqual(arrayPeliculas);
+      const resultado = data.OrdenaPeliculasProductor(arrayPeliculas, "Producers");
+      expect(arrayPeliculas).toEqual(resultado);
     });
   });
 });
 
 describe('data', () => {
   describe('data.OrdenaPeliculasDirector', () => {
-    it('debería retornar el arreglo completo de películas', () => {
+    it('debería retornar todas las peliculas del director especificado ', () => {
       const arrayPeliculas = [
         { director: "Hiroyuki Morita", title: "The Cat Returns" },
         { director: "Hiromasa Yonebayashi", title: "The Secret World of Arrietty" },
@@ -200,14 +198,14 @@ describe('data', () => {
       expect(resultado).toEqual(expected);
     });
 
-    it('debería retornar un arreglo filtrado por el nombre del director', () => {
+    it('debería retornar las peliculas en su orden original', () => {
       const arrayPeliculas = [
         { director: "Hiromasa Yonebayashi", title: "The Secret World of Arrietty" },
         { director: "Hiromasa Yonebayashi", title: "When Marnie Was There" },
       ];
 
-      const resultado = data.OrdenaPeliculasDirector(arrayPeliculas, "Hiromasa Yonebayashi");
-      expect(resultado).toEqual(arrayPeliculas);
+      const resultado = data.OrdenaPeliculasDirector(arrayPeliculas, "Directors");
+      expect(arrayPeliculas).toEqual(resultado);
     });
   });
 });
